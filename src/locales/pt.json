@@ -1,0 +1,564 @@
+{
+  "sidebar": {
+    "brandSubtitle": "Plataforma de vendas",
+    "badgeNew": "NOVO",
+    "language": "Idioma",
+    "switchToPt": "Português",
+    "switchToEn": "English",
+    "nav": {
+      "dashboard": "Painel",
+      "ranking": "Ranking",
+      "statistics": "Estatísticas",
+      "createBot": "Criar bot",
+      "configureBot": "Configurar bot",
+      "mailing": "Mailing",
+      "tracking": "Rastreamento",
+      "redirectors": "Redirecionadores",
+      "payments": "Pagamentos",
+      "myAccount": "Minha conta",
+      "support": "Suporte"
+    }
+  },
+  "rankingBanner": {
+    "line1": "NO TOPO DO RANKING,",
+    "line2": "OS MELHORES VENCEM",
+    "subtitle": "Compita em tempo real pela melhor posição em faturamento."
+  },
+  "dashboard": {
+    "viewAllBots": "Ver todos os bots",
+    "viewingMetricsFor": "Métricas de",
+    "allBots": "Todos os bots",
+    "botN": "Bot nº {{n}}",
+    "today": "Hoje",
+    "month": "Mês",
+    "activity": [
+      { "message": "Desconectado", "detail": "Conversa iniciada", "time": "35s" },
+      { "message": "Solicitar pagamento", "detail": "Pagamento R$ 9,90", "time": "12h" },
+      { "message": "Solicitar pagamento", "detail": "Pix gerado de R$ 9,90", "time": "13h" },
+      { "message": "Usuário entrou", "detail": "Novo cadastro de usuário", "time": "2h" },
+      { "message": "Pagamento confirmado", "detail": "R$ 15,50 recebidos", "time": "4h" },
+      { "message": "Erro no bot", "detail": "Tempo de conexão esgotado", "time": "5h" },
+      { "message": "Nova venda", "detail": "Produto vendido R$ 29,90", "time": "6h" },
+      { "message": "Pedido de suporte", "detail": "Usuário precisa de ajuda", "time": "7h" },
+      { "message": "Reembolso processado", "detail": "R$ 19,90 reembolsados", "time": "8h" },
+      { "message": "Upsell concluído", "detail": "Adicional R$ 49,90", "time": "9h" }
+    ]
+  },
+  "usersStats": {
+    "title": "Usuários",
+    "today": "Hoje",
+    "month": "Mês",
+    "active": "Ativos",
+    "total": "Total",
+    "blocked": "Bloqueados",
+    "subscriptions": "Assinaturas"
+  },
+  "statsCard": {
+    "sales": "Vendas: {{count}}"
+  },
+  "salesChart": {
+    "title": "Histórico de vendas",
+    "period7d": "7D",
+    "period30d": "30D"
+  },
+  "activityLog": {
+    "title": "Registro de atividades"
+  },
+  "ranking": {
+    "title": "Ranking de vendas",
+    "subtitle": "Compita com os melhores vendedores da plataforma",
+    "period": { "daily": "Diário", "weekly": "Semanal", "monthly": "Mensal" },
+    "salesCount": "{{count}} vendas",
+    "completeRanking": "Ranking completo",
+    "table": {
+      "position": "Posição",
+      "user": "Usuário",
+      "sales": "Vendas",
+      "revenue": "Receita",
+      "badge": "Selo"
+    },
+    "badges": {
+      "Gold": "Ouro",
+      "Silver": "Prata",
+      "Bronze": "Bronze",
+      "Rising": "Em ascensão",
+      "Pro": "Pro",
+      "Elite": "Elite",
+      "Hot": "Em alta",
+      "Fast": "Rápido",
+      "Smart": "Inteligente",
+      "Strong": "Forte"
+    }
+  },
+  "statistics": {
+    "title": "Análises e estatísticas",
+    "subtitle": "Visão geral do desempenho das suas vendas",
+    "period": { "7D": "7D", "30D": "30D", "90D": "90D" },
+    "metrics": {
+      "totalSales": "Vendas totais",
+      "revenue": "Receita",
+      "activeUsers": "Usuários ativos",
+      "conversionRate": "Taxa de conversão"
+    },
+    "values": {
+      "totalSales": "1.247",
+      "revenue": "R$ 58.420,30",
+      "activeUsers": "2.847",
+      "conversionRate": "3,2%"
+    },
+    "changes": {
+      "totalSales": "+12,5%",
+      "revenue": "+8,3%",
+      "activeUsers": "+5,7%",
+      "conversionRate": "+0,8%"
+    },
+    "salesTrend": "Tendência de vendas",
+    "conversionFunnel": "Funil de conversão",
+    "funnel": {
+      "visitors": "Visitantes",
+      "interested": "Interessados",
+      "cart": "Adicionaram ao carrinho",
+      "checkout": "Checkout",
+      "completed": "Concluído"
+    },
+    "productsPerformance": "Desempenho por produto",
+    "productNames": {
+      "premium": "Curso premium",
+      "basic": "Pacote básico",
+      "proTools": "Ferramentas Pro",
+      "consultation": "Consultoria"
+    },
+    "salesLabel": "Vendas:",
+    "revenueLabel": "Receita:",
+    "percentOfTotal": "{{pct}}% do total",
+    "recentActivity": "Atividade recente",
+    "weekdays": ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb", "Dom"],
+    "activities": [
+      { "time": "há 2 minutos", "action": "Nova venda concluída", "amount": "R$ 29,90" },
+      { "time": "há 15 minutos", "action": "Usuário iniciou checkout", "amount": "R$ 49,90" },
+      { "time": "há 1 hora", "action": "Pagamento confirmado", "amount": "R$ 19,90" },
+      { "time": "há 2 horas", "action": "Configuração do bot atualizada", "amount": "" },
+      { "time": "há 3 horas", "action": "Novo usuário registrado", "amount": "" },
+      { "time": "há 4 horas", "action": "Webhook enviado com sucesso", "amount": "" },
+      { "time": "há 5 horas", "action": "Oferta de upsell aceita", "amount": "R$ 99,90" },
+      { "time": "há 6 horas", "action": "Lead capturado", "amount": "" },
+      { "time": "há 7 horas", "action": "Pagamento pendente", "amount": "R$ 39,90" },
+      { "time": "há 8 horas", "action": "Mensagem de vendas enviada", "amount": "" }
+    ]
+  },
+  "createBot": {
+    "title": "Criar bot do Telegram",
+    "botToken": "Token do bot:",
+    "placeholder": "Cole aqui o token do seu bot do Telegram...",
+    "cancel": "Cancelar",
+    "create": "Criar bot",
+    "success": "Bot criado com sucesso!",
+    "warning": "Bots inativos podem ser excluídos automaticamente do Telegram ou ter o token alterado e serão removidos da plataforma. Em caso de dúvidas, fale com o nosso suporte!",
+    "howToTitle": "Como criar um bot no Telegram",
+    "steps": [
+      "Abra o Telegram e procure @BotFather",
+      "Envie o comando /newbot",
+      "Escolha um nome para o bot",
+      "Escolha um nome de usuário terminando em 'bot' (ex.: meubotvendas)",
+      "Copie o token fornecido pelo BotFather e cole acima"
+    ],
+    "exampleFormat": "Exemplo de formato do token:"
+  },
+  "configureBot": {
+    "tabs": {
+      "profile": "Perfil do bot",
+      "variables": "Variáveis",
+      "shareKey": "Chave de compartilhamento",
+      "configKey": "Chave de configuração",
+      "edit": "Editar bot",
+      "downsell": "Downsell",
+      "upsell": "Upsell",
+      "salesCode": "Código de vendas",
+      "autoApproval": "Aprovação automática",
+      "leadCapture": "Captura de leads",
+      "webhook": "Webhook"
+    },
+    "createdOn": "Criado em: 10/05/2025 14:32",
+    "antiClone": { "title": "Proteção anti-clone", "desc": "Impede clonagem não autorizada do bot" },
+    "startAnywhere": { "title": "Iniciar com qualquer texto", "desc": "O bot responde a qualquer mensagem" },
+    "autoResponse": { "title": "Resposta automática", "desc": "Respostas automáticas ao cliente" },
+    "leadCaptureToggle": { "title": "Captura de leads", "desc": "Capturar dados do usuário" },
+    "webhookToggle": { "title": "Integração webhook", "desc": "Integração com sistemas externos" },
+    "username": "Nome de usuário:",
+    "usernamePh": "Digite o nome de usuário do bot",
+    "saveChanges": "Salvar alterações",
+    "reset": "Redefinir",
+    "salesCodeTitle": "Configuração do código de vendas",
+    "salesTemplate": "Modelo de mensagem de vendas:",
+    "salesTemplatePh": "Digite o modelo da mensagem de vendas...",
+    "saveTemplate": "Salvar modelo",
+    "preview": "Pré-visualizar",
+    "webhookTitle": "Configuração do webhook",
+    "webhookUrl": "URL do webhook:",
+    "webhookUrlPh": "https://sua-url-webhook.com",
+    "secretKey": "Chave secreta:",
+    "secretPh": "Digite o segredo do webhook",
+    "webhookEvents": "Eventos do webhook:",
+    "events": ["Nova venda", "Pagamento confirmado", "Usuário entrou", "Bot iniciado", "Erro ocorrido"],
+    "underDev": "Esta seção está em desenvolvimento"
+  },
+  "mailing": {
+    "title": "E-mail marketing",
+    "subtitle": "Gerencie campanhas e modelos de e-mail",
+    "newCampaign": "Nova campanha",
+    "stats": {
+      "totalSent": "Total enviado",
+      "openRate": "Taxa de abertura",
+      "activeSubscribers": "Assinantes ativos",
+      "thisMonth": "Este mês"
+    },
+    "statValues": { "totalSent": "12.847", "openRate": "23,4%", "activeSubscribers": "3.456", "thisMonth": "47" },
+    "tabs": { "campaigns": "Campanhas", "templates": "Modelos", "compose": "Compor" },
+    "campaignsTitle": "Campanhas de e-mail",
+    "table": {
+      "campaign": "Campanha",
+      "recipients": "Destinatários",
+      "sentDate": "Data de envio",
+      "openRate": "Taxa de abertura",
+      "status": "Status",
+      "actions": "Ações"
+    },
+    "status": { "completed": "concluída", "scheduled": "agendada", "draft": "rascunho" },
+    "templatesTitle": "Modelos de e-mail",
+    "newTemplate": "Novo modelo",
+    "category": "Categoria:",
+    "lastUsed": "Último uso:",
+    "useTemplate": "Usar modelo",
+    "createTitle": "Criar nova campanha",
+    "campaignName": "Nome da campanha",
+    "campaignNamePh": "Digite o nome da campanha",
+    "subjectLine": "Assunto",
+    "subjectPh": "Digite o assunto do e-mail",
+    "recipients": "Destinatários",
+    "recipientOpts": {
+      "all": "Todos os assinantes (3.456)",
+      "active": "Usuários ativos (2.847)",
+      "new": "Novos assinantes (609)",
+      "premium": "Usuários premium (1.234)"
+    },
+    "template": "Modelo",
+    "selectTemplate": "Selecione um modelo",
+    "emailContent": "Conteúdo do e-mail",
+    "contentPh": "Escreva o conteúdo do e-mail...",
+    "sendNow": "Enviar agora",
+    "saveDraft": "Salvar rascunho",
+    "schedule": "Agendar"
+  },
+  "tracking": {
+    "title": "Rastreamento de usuários",
+    "subtitle": "Atividade em tempo real e análise de comportamento",
+    "last24h": "Últimas 24h",
+    "export": "Exportar dados",
+    "stats": {
+      "totalEvents": "Eventos totais",
+      "pageViews": "Visualizações",
+      "uniqueVisitors": "Visitantes únicos",
+      "conversionRate": "Taxa de conversão"
+    },
+    "statChanges": { "e": "+12,5%", "pv": "+8,2%", "uv": "+5,7%", "cr": "+0,3%" },
+    "statValues": { "e": "45.672", "pv": "28.456", "uv": "12.847", "cr": "3,4%" },
+    "filters": "Filtros",
+    "eventType": "Tipo de evento",
+    "deviceType": "Tipo de dispositivo",
+    "timeRange": "Período",
+    "allEvents": "Todos os eventos",
+    "eventKeys": {
+      "pageView": "Visualização de página",
+      "buttonClick": "Clique em botão",
+      "formSubmit": "Envio de formulário",
+      "purchase": "Compra",
+      "download": "Download",
+      "videoPlay": "Reprodução de vídeo"
+    },
+    "allDevices": "Todos os dispositivos",
+    "deviceKeys": {
+      "desktop": "Desktop",
+      "mobile": "Celular",
+      "tablet": "Tablet"
+    },
+    "timeOpts": ["Últimas 24 horas", "Últimos 7 dias", "Últimos 30 dias", "Intervalo personalizado"],
+    "realtimeTitle": "Eventos em tempo real ({{count}})",
+    "live": "Ao vivo",
+    "pagePerformance": "Desempenho por página",
+    "uniqueShort": "Únicos:",
+    "bounceShort": "Rejeição:",
+    "heatmapTitle": "Mapa de calor de interação",
+    "heatmapHeading": "Visualização do mapa de calor",
+    "heatmapDesc": "Representação visual de cliques e interações",
+    "viewHeatmap": "Ver mapa de calor completo"
+  },
+  "redirectors": {
+    "title": "Redirecionadores de URL",
+    "subtitle": "Gerencie e acompanhe seus links encurtados",
+    "newRedirect": "Novo redirecionamento",
+    "stats": {
+      "total": "Redirecionamentos",
+      "active": "Links ativos",
+      "clicks": "Cliques totais",
+      "avg": "Média de cliques/link"
+    },
+    "yourRedirects": "Seus redirecionamentos ({{count}})",
+    "table": {
+      "name": "Nome",
+      "shortUrl": "URL curta",
+      "destination": "Destino",
+      "clicks": "Cliques",
+      "status": "Status",
+      "created": "Criado",
+      "actions": "Ações"
+    },
+    "status": { "active": "ativo", "paused": "pausado", "expired": "expirado" },
+    "modalTitle": "Criar redirecionamento",
+    "redirectName": "Nome do redirecionamento",
+    "redirectNamePh": "ex.: Campanha lançamento produto",
+    "shortUrl": "URL curta",
+    "shortUrlHint": "Escolha um caminho fácil de lembrar",
+    "destinationUrl": "URL de destino",
+    "destinationPh": "https://exemplo.com/sua-pagina",
+    "description": "Descrição (opcional)",
+    "descriptionPh": "Breve descrição deste redirecionamento...",
+    "create": "Criar",
+    "cancel": "Cancelar",
+    "topPerforming": "Redirecionamentos com melhor desempenho",
+    "shortUrlLabel": "URL curta:",
+    "clicksLabel": "Cliques:"
+  },
+  "payments": {
+    "title": "Gestão de pagamentos",
+    "subtitle": "Acompanhe e gerencie todas as transações",
+    "export": "Exportar",
+    "stats": {
+      "totalRevenue": "Receita total",
+      "pending": "Pagamentos pendentes",
+      "transactions": "Transações totais",
+      "successRate": "Taxa de sucesso"
+    },
+    "searchPh": "Buscar transações...",
+    "allStatus": "Todos os status",
+    "status": {
+      "completed": "Concluído",
+      "pending": "Pendente",
+      "failed": "Falhou",
+      "refunded": "Reembolsado"
+    },
+    "allMethods": "Todos os métodos",
+    "methods": { "pix": "PIX", "credit_card": "Cartão de crédito" },
+    "filter": "Filtrar",
+    "recentTitle": "Transações recentes ({{count}})",
+    "table": {
+      "id": "ID",
+      "customer": "Cliente",
+      "product": "Produto",
+      "amount": "Valor",
+      "method": "Método",
+      "status": "Status",
+      "date": "Data",
+      "actions": "Ações"
+    },
+    "emptyTitle": "Nenhuma transação encontrada",
+    "emptyDesc": "Ajuste a busca ou os filtros"
+  },
+  "myAccount": {
+    "title": "Minha conta",
+    "subtitle": "Gerencie dados e preferências da conta",
+    "proPlan": "Plano Pro",
+    "tabs": {
+      "profile": "Perfil",
+      "security": "Segurança",
+      "billing": "Cobrança",
+      "notifications": "Notificações",
+      "preferences": "Preferências"
+    },
+    "profileInfo": "Informações do perfil",
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "company": "Empresa",
+    "saveChanges": "Salvar alterações",
+    "cancel": "Cancelar",
+    "securityTitle": "Configurações de segurança",
+    "password": "Senha",
+    "currentPassword": "Senha atual",
+    "currentPasswordPh": "Digite a senha atual",
+    "newPassword": "Nova senha",
+    "newPasswordPh": "Digite a nova senha",
+    "confirmPassword": "Confirmar nova senha",
+    "confirmPasswordPh": "Confirme a nova senha",
+    "updatePassword": "Atualizar senha",
+    "passwordFillAll": "Preencha todos os campos de senha.",
+    "passwordMismatch": "A nova senha e a confirmação não coincidem.",
+    "sessionRevoked": "Sessão revogada.",
+    "billingUpgradeToast": "As opções de upgrade abririam aqui.",
+    "billingCancelToast": "Cancelamento do plano registrado nesta sessão.",
+    "billingEditToast": "O editor do método de pagamento abriria aqui.",
+    "twoFactorTitle": "Autenticação em duas etapas",
+    "twoFactorDesc": "Camada extra de segurança para sua conta",
+    "activeSessions": "Sessões ativas",
+    "current": "Atual",
+    "revoke": "Revogar",
+    "billingTitle": "Cobrança e assinatura",
+    "currentPlan": "Plano atual",
+    "perMonth": "R$ 99,90/mês",
+    "nextBilling": "Próxima cobrança: 1 de fevereiro de 2025",
+    "upgrade": "Fazer upgrade",
+    "cancelPlan": "Cancelar plano",
+    "paymentMethod": "Forma de pagamento",
+    "edit": "Editar",
+    "usageMonth": "Uso neste mês",
+    "apiCalls": "Chamadas de API",
+    "storage": "Armazenamento",
+    "bots": "Bots",
+    "billingHistory": "Histórico de cobrança",
+    "billingDescriptions": [
+      "Plano Pro - Mensal",
+      "Plano Pro - Mensal",
+      "Plano Pro - Mensal",
+      "Plano Pro - Mensal",
+      "Plano Pro - Mensal",
+      "Plano Básico - Mensal",
+      "Plano Básico - Mensal",
+      "Plano Básico - Mensal",
+      "Plano Básico - Mensal",
+      "Plano Básico - Mensal"
+    ],
+    "bhDate": "Data",
+    "bhDescription": "Descrição",
+    "bhAmount": "Valor",
+    "bhStatus": "Status",
+    "paid": "pago",
+    "notifTitle": "Notificações",
+    "notifItems": [
+      { "label": "Notificações por e-mail", "desc": "Receber notificações por e-mail" },
+      { "label": "Notificações por SMS", "desc": "Receber notificações por SMS" },
+      { "label": "Notificações push", "desc": "Notificações no navegador" },
+      { "label": "E-mails de marketing", "desc": "Promoções e novidades por e-mail" }
+    ],
+    "prefTitle": "Preferências",
+    "appearance": "Aparência",
+    "darkMode": "Modo escuro",
+    "darkModeDesc": "Usar tema escuro em todo o aplicativo",
+    "localization": "Localização",
+    "language": "Idioma",
+    "timezone": "Fuso horário",
+    "sessions": [
+      { "device": "MacBook Pro", "location": "São Paulo, Brasil", "lastActive": "há 5 minutos" },
+      { "device": "iPhone 14", "location": "São Paulo, Brasil", "lastActive": "há 2 horas" },
+      { "device": "Chrome", "location": "Rio de Janeiro, Brasil", "lastActive": "há 1 dia" }
+    ],
+    "langOptions": { "en": "English", "pt": "Português", "es": "Español", "fr": "Français" },
+    "tzOptions": {
+      "UTC-3": "UTC-3 (São Paulo)",
+      "UTC-5": "UTC-5 (Nova York)",
+      "UTC+0": "UTC+0 (Londres)",
+      "UTC+1": "UTC+1 (Paris)"
+    }
+  },
+  "support": {
+    "title": "Central de suporte",
+    "subtitle": "Obtenha ajuda e respostas às suas dúvidas",
+    "docs": { "title": "Documentação", "desc": "Guias completos e referência da API" },
+    "videos": { "title": "Vídeo tutoriais", "desc": "Instruções passo a passo em vídeo" },
+    "community": { "title": "Comunidade", "desc": "Conecte-se com outros usuários" },
+    "tabs": { "faq": "FAQ", "tickets": "Chamados", "contact": "Fale conosco" },
+    "searchPh": "Buscar nas perguntas frequentes...",
+    "allCategories": "Todas as categorias",
+    "ticketsTitle": "Seus chamados",
+    "newTicket": "Novo chamado",
+    "ticketTable": {
+      "id": "ID do chamado",
+      "subject": "Assunto",
+      "status": "Status",
+      "priority": "Prioridade",
+      "created": "Criado",
+      "lastUpdate": "Última atualização"
+    },
+    "ticketStatus": { "open": "aberto", "in-progress": "em andamento", "resolved": "resolvido" },
+    "contactTitle": "Abrir chamado",
+    "contactSubtitle": "Descreva o problema e retornaremos em breve",
+    "subject": "Assunto",
+    "subjectPh": "Breve descrição do problema",
+    "priority": "Prioridade",
+    "priorityOpts": {
+      "low": "Baixa - Dúvida geral",
+      "medium": "Média - Bug ou sugestão",
+      "high": "Alta - Indisponibilidade do serviço"
+    },
+    "message": "Mensagem",
+    "messagePh": "Inclua o máximo de detalhes possível...",
+    "submitTicket": "Enviar chamado",
+    "cancel": "Cancelar",
+    "otherWays": "Outras formas de contato",
+    "telegram": "Telegram",
+    "responseTime": "Tempo de resposta",
+    "responseTimeVal": "Geralmente em 2 a 4 horas",
+    "faq": {
+      "gettingStarted": {
+        "title": "Primeiros passos",
+        "items": [
+          { "q": "Como criar meu primeiro bot no Telegram?", "a": "Acesse \"Criar bot\", obtenha um token com o @BotFather no Telegram e cole na plataforma." },
+          { "q": "Qual a diferença entre os planos?", "a": "O plano Básico permite até 3 bots; o Pro, bots ilimitados com recursos avançados como webhooks e análises." },
+          { "q": "Quanto tempo leva para configurar um bot?", "a": "Um bot básico leva menos de 5 minutos. Configurações avançadas podem levar mais tempo." }
+        ]
+      },
+      "billing": {
+        "title": "Cobrança e pagamentos",
+        "items": [
+          { "q": "Como funciona a cobrança?", "a": "Cobrança mensal fixa, sem taxa por venda. Você paga apenas a assinatura do plano escolhido." },
+          { "q": "Posso mudar de plano a qualquer momento?", "a": "Sim. Upgrade ou downgrade a qualquer momento; as mudanças refletem no próximo ciclo." },
+          { "q": "Há reembolso?", "a": "Garantia de 30 dias para novos assinantes insatisfeitos com o serviço." }
+        ]
+      },
+      "technical": {
+        "title": "Problemas técnicos",
+        "items": [
+          { "q": "Meu bot não responde. O que fazer?", "a": "Verifique se o token é válido e se o bot não está banido. Você pode reiniciar pelo painel de configuração." },
+          { "q": "Como configurar webhooks?", "a": "Na configuração do bot, ative o webhook e informe a URL e a chave secreta." },
+          { "q": "Posso integrar pagamentos externos?", "a": "Sim. Suportamos diversos gateways, incluindo métodos de pagamento brasileiros." }
+        ]
+      }
+    },
+    "ticketSubjects": [
+      "Bot não recebe mensagens",
+      "Ajuda com integração de pagamento",
+      "Dúvida sobre upgrade da conta",
+      "Problema na configuração do webhook",
+      "Solicitação de documentação da API"
+    ]
+  },
+  "common": {
+    "user": "Usuário",
+    "userWithId": "Usuário #{{id}}",
+    "saved": "Alterações salvas.",
+    "resetToSaved": "Restaurado para os últimos valores salvos.",
+    "deleted": "Removido.",
+    "close": "Fechar",
+    "campaignDetails": "Detalhes da campanha",
+    "editCampaign": "Editar campanha",
+    "save": "Salvar",
+    "emailSent": "Campanha enfileirada para envio.",
+    "draftSaved": "Rascunho salvo.",
+    "scheduled": "Envio agendado.",
+    "templatePreview": "Pré-visualização do modelo",
+    "templateApplied": "Modelo carregado no compositor.",
+    "newTemplateNote": "Rascunho de novo modelo criado (demo).",
+    "redirectDetails": "Detalhes do redirecionamento",
+    "editRedirect": "Editar redirecionamento",
+    "passwordUpdated": "Senha atualizada.",
+    "passwordMismatch": "As novas senhas não coincidem.",
+    "fillPasswords": "Preencha todos os campos de senha.",
+    "sessionRevoked": "Sessão revogada.",
+    "upgradeRequested": "Fluxo de upgrade iniciado (demo).",
+    "cancelPlanRequested": "Cancelamento solicitado (demo).",
+    "editPaymentRequested": "Editor de pagamento (demo).",
+    "profileSaved": "Perfil salvo.",
+    "profileReverted": "Alterações descartadas.",
+    "fillComposeFields": "Informe o nome da campanha e o assunto.",
+    "copied": "Copiado para a área de transferência."
+  }
+}

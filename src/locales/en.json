@@ -1,0 +1,564 @@
+{
+  "sidebar": {
+    "brandSubtitle": "Sales Platform",
+    "badgeNew": "NEW",
+    "language": "Language",
+    "switchToPt": "Português",
+    "switchToEn": "English",
+    "nav": {
+      "dashboard": "Dashboard",
+      "ranking": "Ranking",
+      "statistics": "Statistics",
+      "createBot": "Create Bot",
+      "configureBot": "Configure Bot",
+      "mailing": "Mailing",
+      "tracking": "Tracking",
+      "redirectors": "Redirectors",
+      "payments": "Payments",
+      "myAccount": "My Account",
+      "support": "Support"
+    }
+  },
+  "rankingBanner": {
+    "line1": "AT THE TOP OF THE RANKING,",
+    "line2": "THE BEST WIN",
+    "subtitle": "Compete in real-time for the top billing position."
+  },
+  "dashboard": {
+    "viewAllBots": "View all bots",
+    "viewingMetricsFor": "Viewing metrics for",
+    "allBots": "All bots",
+    "botN": "Bot #{{n}}",
+    "today": "Today",
+    "month": "Month",
+    "activity": [
+      { "message": "Disconnected", "detail": "Started conversation", "time": "35s" },
+      { "message": "Request payment", "detail": "Payment R$ 9.90", "time": "12h" },
+      { "message": "Request payment", "detail": "Generated pix of R$ 9.90", "time": "13h" },
+      { "message": "User joined", "detail": "New user registration", "time": "2h" },
+      { "message": "Payment confirmed", "detail": "R$ 15.50 received", "time": "4h" },
+      { "message": "Bot error", "detail": "Connection timeout", "time": "5h" },
+      { "message": "New sale", "detail": "Product sold R$ 29.90", "time": "6h" },
+      { "message": "Support request", "detail": "User needs help", "time": "7h" },
+      { "message": "Refund processed", "detail": "R$ 19.90 refunded", "time": "8h" },
+      { "message": "Upsell success", "detail": "Additional R$ 49.90", "time": "9h" }
+    ]
+  },
+  "usersStats": {
+    "title": "Users",
+    "today": "Today",
+    "month": "Month",
+    "active": "Active",
+    "total": "Total",
+    "blocked": "Blocked",
+    "subscriptions": "Subscriptions"
+  },
+  "statsCard": {
+    "sales": "Sales: {{count}}"
+  },
+  "salesChart": {
+    "title": "Sales History",
+    "period7d": "7D",
+    "period30d": "30D"
+  },
+  "activityLog": {
+    "title": "Activity Log"
+  },
+  "ranking": {
+    "title": "Sales Ranking",
+    "subtitle": "Compete with the best sellers on the platform",
+    "period": { "daily": "Daily", "weekly": "Weekly", "monthly": "Monthly" },
+    "salesCount": "{{count}} sales",
+    "completeRanking": "Complete Ranking",
+    "table": {
+      "position": "Position",
+      "user": "User",
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "badge": "Badge"
+    },
+    "badges": {
+      "Gold": "Gold",
+      "Silver": "Silver",
+      "Bronze": "Bronze",
+      "Rising": "Rising",
+      "Pro": "Pro",
+      "Elite": "Elite",
+      "Hot": "Hot",
+      "Fast": "Fast",
+      "Smart": "Smart",
+      "Strong": "Strong"
+    }
+  },
+  "statistics": {
+    "title": "Analytics & Statistics",
+    "subtitle": "Comprehensive overview of your sales performance",
+    "period": { "7D": "7D", "30D": "30D", "90D": "90D" },
+    "metrics": {
+      "totalSales": "Total Sales",
+      "revenue": "Revenue",
+      "activeUsers": "Active Users",
+      "conversionRate": "Conversion Rate"
+    },
+    "values": {
+      "totalSales": "1,247",
+      "revenue": "R$ 58,420.30",
+      "activeUsers": "2,847",
+      "conversionRate": "3.2%"
+    },
+    "changes": {
+      "totalSales": "+12.5%",
+      "revenue": "+8.3%",
+      "activeUsers": "+5.7%",
+      "conversionRate": "+0.8%"
+    },
+    "salesTrend": "Sales Trend",
+    "conversionFunnel": "Conversion Funnel",
+    "funnel": {
+      "visitors": "Visitors",
+      "interested": "Interested",
+      "cart": "Added to Cart",
+      "checkout": "Checkout",
+      "completed": "Completed"
+    },
+    "productsPerformance": "Products Performance",
+    "productNames": {
+      "premium": "Premium Course",
+      "basic": "Basic Package",
+      "proTools": "Pro Tools",
+      "consultation": "Consultation"
+    },
+    "salesLabel": "Sales:",
+    "revenueLabel": "Revenue:",
+    "percentOfTotal": "{{pct}}% of total",
+    "recentActivity": "Recent Activity",
+    "weekdays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "activities": [
+      { "time": "2 minutes ago", "action": "New sale completed", "amount": "R$ 29.90" },
+      { "time": "15 minutes ago", "action": "User started checkout", "amount": "R$ 49.90" },
+      { "time": "1 hour ago", "action": "Payment confirmed", "amount": "R$ 19.90" },
+      { "time": "2 hours ago", "action": "Bot configuration updated", "amount": "" },
+      { "time": "3 hours ago", "action": "New user registered", "amount": "" },
+      { "time": "4 hours ago", "action": "Webhook sent successfully", "amount": "" },
+      { "time": "5 hours ago", "action": "Upsell offer accepted", "amount": "R$ 99.90" },
+      { "time": "6 hours ago", "action": "Lead captured", "amount": "" },
+      { "time": "7 hours ago", "action": "Payment pending", "amount": "R$ 39.90" },
+      { "time": "8 hours ago", "action": "Sales message sent", "amount": "" }
+    ]
+  },
+  "createBot": {
+    "title": "Create Telegram Bot",
+    "botToken": "Bot Token:",
+    "placeholder": "Enter your Telegram bot token here...",
+    "cancel": "Cancel",
+    "create": "Create Bot",
+    "success": "Bot created successfully!",
+    "warning": "Bots that show inactivity will be automatically deleted from Telegram or have their token changed and will be automatically excluded. If you have any issues, don't hesitate to contact our support!",
+    "howToTitle": "How to create a Telegram bot",
+    "steps": [
+      "Open Telegram and search for @BotFather",
+      "Send the command /newbot",
+      "Choose a name for your bot",
+      "Choose a username ending with 'bot' (e.g., mysalesbot)",
+      "Copy the token provided by BotFather and paste it above"
+    ],
+    "exampleFormat": "Example token format:"
+  },
+  "configureBot": {
+    "tabs": {
+      "profile": "Bot Profile",
+      "variables": "Variables",
+      "shareKey": "Share Key",
+      "configKey": "Config Key",
+      "edit": "Edit Bot",
+      "downsell": "Downsell",
+      "upsell": "Upsell",
+      "salesCode": "Sales Code",
+      "autoApproval": "Auto Approval",
+      "leadCapture": "Lead Capture",
+      "webhook": "Webhook"
+    },
+    "createdOn": "Created on: 10/05/2025 14:32",
+    "antiClone": { "title": "Anti-Clone Protection", "desc": "Prevents unauthorized bot cloning" },
+    "startAnywhere": { "title": "Start with Any Text", "desc": "Bot responds to any message" },
+    "autoResponse": { "title": "Auto Response", "desc": "Automatic customer responses" },
+    "leadCaptureToggle": { "title": "Lead Capture", "desc": "Capture user information" },
+    "webhookToggle": { "title": "Webhook Integration", "desc": "External system integration" },
+    "username": "Username:",
+    "usernamePh": "Enter bot username",
+    "saveChanges": "Save Changes",
+    "reset": "Reset",
+    "salesCodeTitle": "Sales Code Configuration",
+    "salesTemplate": "Sales Message Template:",
+    "salesTemplatePh": "Enter your sales message template here...",
+    "saveTemplate": "Save Template",
+    "preview": "Preview",
+    "webhookTitle": "Webhook Configuration",
+    "webhookUrl": "Webhook URL:",
+    "webhookUrlPh": "https://your-webhook-url.com",
+    "secretKey": "Secret Key:",
+    "secretPh": "Enter webhook secret",
+    "webhookEvents": "Webhook Events:",
+    "events": ["New Sale", "Payment Confirmed", "User Joined", "Bot Started", "Error Occurred"],
+    "underDev": "This section is under development"
+  },
+  "mailing": {
+    "title": "Email Marketing",
+    "subtitle": "Manage your email campaigns and templates",
+    "newCampaign": "New Campaign",
+    "stats": {
+      "totalSent": "Total Sent",
+      "openRate": "Open Rate",
+      "activeSubscribers": "Active Subscribers",
+      "thisMonth": "This Month"
+    },
+    "statValues": { "totalSent": "12,847", "openRate": "23.4%", "activeSubscribers": "3,456", "thisMonth": "47" },
+    "tabs": { "campaigns": "Campaigns", "templates": "Templates", "compose": "Compose" },
+    "campaignsTitle": "Email Campaigns",
+    "table": {
+      "campaign": "Campaign",
+      "recipients": "Recipients",
+      "sentDate": "Sent Date",
+      "openRate": "Open Rate",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": { "completed": "completed", "scheduled": "scheduled", "draft": "draft" },
+    "templatesTitle": "Email Templates",
+    "newTemplate": "New Template",
+    "category": "Category:",
+    "lastUsed": "Last used:",
+    "useTemplate": "Use Template",
+    "createTitle": "Create New Campaign",
+    "campaignName": "Campaign Name",
+    "campaignNamePh": "Enter campaign name",
+    "subjectLine": "Subject Line",
+    "subjectPh": "Enter email subject",
+    "recipients": "Recipients",
+    "recipientOpts": {
+      "all": "All Subscribers (3,456)",
+      "active": "Active Users (2,847)",
+      "new": "New Subscribers (609)",
+      "premium": "Premium Users (1,234)"
+    },
+    "template": "Template",
+    "selectTemplate": "Select a template",
+    "emailContent": "Email Content",
+    "contentPh": "Write your email content here...",
+    "sendNow": "Send Now",
+    "saveDraft": "Save Draft",
+    "schedule": "Schedule"
+  },
+  "tracking": {
+    "title": "User Tracking",
+    "subtitle": "Real-time user activity and behavior analytics",
+    "last24h": "Last 24h",
+    "export": "Export Data",
+    "stats": {
+      "totalEvents": "Total Events",
+      "pageViews": "Page Views",
+      "uniqueVisitors": "Unique Visitors",
+      "conversionRate": "Conversion Rate"
+    },
+    "statChanges": { "e": "+12.5%", "pv": "+8.2%", "uv": "+5.7%", "cr": "+0.3%" },
+    "statValues": { "e": "45,672", "pv": "28,456", "uv": "12,847", "cr": "3.4%" },
+    "filters": "Filters",
+    "eventType": "Event Type",
+    "deviceType": "Device Type",
+    "timeRange": "Time Range",
+    "allEvents": "All Events",
+    "eventKeys": {
+      "pageView": "Page View",
+      "buttonClick": "Button Click",
+      "formSubmit": "Form Submit",
+      "purchase": "Purchase",
+      "download": "Download",
+      "videoPlay": "Video Play"
+    },
+    "allDevices": "All Devices",
+    "deviceKeys": {
+      "desktop": "Desktop",
+      "mobile": "Mobile",
+      "tablet": "Tablet"
+    },
+    "timeOpts": ["Last 24 hours", "Last 7 days", "Last 30 days", "Custom range"],
+    "realtimeTitle": "Real-time Events ({{count}})",
+    "live": "Live",
+    "pagePerformance": "Page Performance",
+    "uniqueShort": "Unique:",
+    "bounceShort": "Bounce:",
+    "heatmapTitle": "User Interaction Heatmap",
+    "heatmapHeading": "Heatmap Visualization",
+    "heatmapDesc": "Visual representation of user clicks and interactions",
+    "viewHeatmap": "View Full Heatmap"
+  },
+  "redirectors": {
+    "title": "URL Redirectors",
+    "subtitle": "Manage and track your shortened URLs",
+    "newRedirect": "New Redirect",
+    "stats": {
+      "total": "Total Redirects",
+      "active": "Active Links",
+      "clicks": "Total Clicks",
+      "avg": "Avg Clicks/Link"
+    },
+    "yourRedirects": "Your Redirects ({{count}})",
+    "table": {
+      "name": "Name",
+      "shortUrl": "Short URL",
+      "destination": "Destination",
+      "clicks": "Clicks",
+      "status": "Status",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "status": { "active": "active", "paused": "paused", "expired": "expired" },
+    "modalTitle": "Create New Redirect",
+    "redirectName": "Redirect Name",
+    "redirectNamePh": "e.g., Product Launch Campaign",
+    "shortUrl": "Short URL",
+    "shortUrlHint": "Choose a memorable path for your short URL",
+    "destinationUrl": "Destination URL",
+    "destinationPh": "https://example.com/your-landing-page",
+    "description": "Description (Optional)",
+    "descriptionPh": "Brief description of this redirect...",
+    "create": "Create Redirect",
+    "cancel": "Cancel",
+    "topPerforming": "Top Performing Redirects",
+    "shortUrlLabel": "Short URL:",
+    "clicksLabel": "Clicks:"
+  },
+  "payments": {
+    "title": "Payment Management",
+    "subtitle": "Track and manage all your transactions",
+    "export": "Export",
+    "stats": {
+      "totalRevenue": "Total Revenue",
+      "pending": "Pending Payments",
+      "transactions": "Total Transactions",
+      "successRate": "Success Rate"
+    },
+    "searchPh": "Search transactions...",
+    "allStatus": "All Status",
+    "status": {
+      "completed": "Completed",
+      "pending": "Pending",
+      "failed": "Failed",
+      "refunded": "Refunded"
+    },
+    "allMethods": "All Methods",
+    "methods": { "pix": "PIX", "credit_card": "Credit Card" },
+    "filter": "Filter",
+    "recentTitle": "Recent Transactions ({{count}})",
+    "table": {
+      "id": "ID",
+      "customer": "Customer",
+      "product": "Product",
+      "amount": "Amount",
+      "method": "Method",
+      "status": "Status",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "emptyTitle": "No transactions found",
+    "emptyDesc": "Try adjusting your search or filter criteria"
+  },
+  "myAccount": {
+    "title": "My Account",
+    "subtitle": "Manage your account settings and preferences",
+    "proPlan": "Pro Plan",
+    "tabs": {
+      "profile": "Profile",
+      "security": "Security",
+      "billing": "Billing",
+      "notifications": "Notifications",
+      "preferences": "Preferences"
+    },
+    "profileInfo": "Profile Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "securityTitle": "Security Settings",
+    "password": "Password",
+    "currentPassword": "Current Password",
+    "currentPasswordPh": "Enter current password",
+    "newPassword": "New Password",
+    "newPasswordPh": "Enter new password",
+    "confirmPassword": "Confirm New Password",
+    "confirmPasswordPh": "Confirm new password",
+    "updatePassword": "Update Password",
+    "passwordFillAll": "Please fill in all password fields.",
+    "passwordMismatch": "New password and confirmation do not match.",
+    "sessionRevoked": "Session revoked.",
+    "billingUpgradeToast": "Upgrade options would open here.",
+    "billingCancelToast": "Plan cancellation recorded for this session.",
+    "billingEditToast": "Payment method editor would open here.",
+    "twoFactorTitle": "Two-Factor Authentication",
+    "twoFactorDesc": "Add an extra layer of security to your account",
+    "activeSessions": "Active Sessions",
+    "current": "Current",
+    "revoke": "Revoke",
+    "billingTitle": "Billing & Subscription",
+    "currentPlan": "Current Plan",
+    "perMonth": "R$ 99.90/month",
+    "nextBilling": "Next billing date: February 1, 2025",
+    "upgrade": "Upgrade",
+    "cancelPlan": "Cancel Plan",
+    "paymentMethod": "Payment Method",
+    "edit": "Edit",
+    "usageMonth": "Usage This Month",
+    "apiCalls": "API Calls",
+    "storage": "Storage",
+    "bots": "Bots",
+    "billingHistory": "Billing History",
+    "billingDescriptions": [
+      "Pro Plan - Monthly",
+      "Pro Plan - Monthly",
+      "Pro Plan - Monthly",
+      "Pro Plan - Monthly",
+      "Pro Plan - Monthly",
+      "Basic Plan - Monthly",
+      "Basic Plan - Monthly",
+      "Basic Plan - Monthly",
+      "Basic Plan - Monthly",
+      "Basic Plan - Monthly"
+    ],
+    "bhDate": "Date",
+    "bhDescription": "Description",
+    "bhAmount": "Amount",
+    "bhStatus": "Status",
+    "paid": "paid",
+    "notifTitle": "Notification Settings",
+    "notifItems": [
+      { "label": "Email Notifications", "desc": "Receive notifications via email" },
+      { "label": "SMS Notifications", "desc": "Receive notifications via SMS" },
+      { "label": "Push Notifications", "desc": "Receive browser push notifications" },
+      { "label": "Marketing Emails", "desc": "Receive promotional and marketing emails" }
+    ],
+    "prefTitle": "Preferences",
+    "appearance": "Appearance",
+    "darkMode": "Dark Mode",
+    "darkModeDesc": "Use dark theme across the application",
+    "localization": "Localization",
+    "language": "Language",
+    "timezone": "Timezone",
+    "sessions": [
+      { "device": "MacBook Pro", "location": "São Paulo, Brazil", "lastActive": "5 minutes ago" },
+      { "device": "iPhone 14", "location": "São Paulo, Brazil", "lastActive": "2 hours ago" },
+      { "device": "Chrome Browser", "location": "Rio de Janeiro, Brazil", "lastActive": "1 day ago" }
+    ],
+    "langOptions": { "en": "English", "pt": "Português", "es": "Español", "fr": "Français" },
+    "tzOptions": {
+      "UTC-3": "UTC-3 (São Paulo)",
+      "UTC-5": "UTC-5 (New York)",
+      "UTC+0": "UTC+0 (London)",
+      "UTC+1": "UTC+1 (Paris)"
+    }
+  },
+  "support": {
+    "title": "Support Center",
+    "subtitle": "Get help and find answers to your questions",
+    "docs": { "title": "Documentation", "desc": "Complete guides and API reference" },
+    "videos": { "title": "Video Tutorials", "desc": "Step-by-step video instructions" },
+    "community": { "title": "Community", "desc": "Connect with other users" },
+    "tabs": { "faq": "FAQ", "tickets": "Support Tickets", "contact": "Contact Us" },
+    "searchPh": "Search frequently asked questions...",
+    "allCategories": "All Categories",
+    "ticketsTitle": "Your Support Tickets",
+    "newTicket": "New Ticket",
+    "ticketTable": {
+      "id": "Ticket ID",
+      "subject": "Subject",
+      "status": "Status",
+      "priority": "Priority",
+      "created": "Created",
+      "lastUpdate": "Last Update"
+    },
+    "ticketStatus": { "open": "open", "in-progress": "in-progress", "resolved": "resolved" },
+    "contactTitle": "Create Support Ticket",
+    "contactSubtitle": "Describe your issue and we'll get back to you soon",
+    "subject": "Subject",
+    "subjectPh": "Brief description of your issue",
+    "priority": "Priority",
+    "priorityOpts": {
+      "low": "Low - General question",
+      "medium": "Medium - Feature request or bug",
+      "high": "High - Service disruption"
+    },
+    "message": "Message",
+    "messagePh": "Please provide as much detail as possible about your issue...",
+    "submitTicket": "Submit Ticket",
+    "cancel": "Cancel",
+    "otherWays": "Other Ways to Reach Us",
+    "telegram": "Telegram",
+    "responseTime": "Response Time",
+    "responseTimeVal": "Usually within 2-4 hours",
+    "faq": {
+      "gettingStarted": {
+        "title": "Getting Started",
+        "items": [
+          { "q": "How do I create my first Telegram bot?", "a": "To create your first bot, go to the \"Create Bot\" section, get a token from @BotFather on Telegram, and paste it in our platform." },
+          { "q": "What is the difference between plans?", "a": "Our Basic plan supports up to 3 bots, Pro plan supports unlimited bots with advanced features like webhooks and analytics." },
+          { "q": "How long does it take to set up a bot?", "a": "Setting up a basic bot takes less than 5 minutes. Advanced configurations may take longer depending on your needs." }
+        ]
+      },
+      "billing": {
+        "title": "Billing & Payments",
+        "items": [
+          { "q": "How does billing work?", "a": "We use monthly billing with no per-sale fees. You only pay a fixed monthly subscription based on your chosen plan." },
+          { "q": "Can I change my plan anytime?", "a": "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle." },
+          { "q": "Do you offer refunds?", "a": "We offer a 30-day money-back guarantee for new subscribers who are not satisfied with our service." }
+        ]
+      },
+      "technical": {
+        "title": "Technical Issues",
+        "items": [
+          { "q": "My bot is not responding, what should I do?", "a": "Check if your bot token is valid and the bot is not banned. You can also restart the bot from the configuration panel." },
+          { "q": "How do I set up webhooks?", "a": "Go to your bot configuration, enable webhook integration, and provide your webhook URL with the secret key." },
+          { "q": "Can I integrate with external payment systems?", "a": "Yes, our platform supports integration with various payment gateways including Stripe, PayPal, and local Brazilian payment methods." }
+        ]
+      }
+    },
+    "ticketSubjects": [
+      "Bot not receiving messages",
+      "Payment integration help needed",
+      "Account upgrade question",
+      "Webhook configuration issue",
+      "API documentation request"
+    ]
+  },
+  "common": {
+    "user": "User",
+    "userWithId": "User #{{id}}",
+    "saved": "Changes saved.",
+    "resetToSaved": "Restored to last saved values.",
+    "deleted": "Removed.",
+    "close": "Close",
+    "campaignDetails": "Campaign details",
+    "editCampaign": "Edit campaign",
+    "save": "Save",
+    "emailSent": "Campaign queued for sending.",
+    "draftSaved": "Draft saved.",
+    "scheduled": "Send scheduled.",
+    "templatePreview": "Template preview",
+    "templateApplied": "Template loaded into composer.",
+    "newTemplateNote": "New template draft created (demo).",
+    "redirectDetails": "Redirect details",
+    "editRedirect": "Edit redirect",
+    "passwordUpdated": "Password updated.",
+    "passwordMismatch": "New passwords do not match.",
+    "fillPasswords": "Fill all password fields.",
+    "sessionRevoked": "Session revoked.",
+    "upgradeRequested": "Upgrade flow started (demo).",
+    "cancelPlanRequested": "Cancellation requested (demo).",
+    "editPaymentRequested": "Payment method editor (demo).",
+    "profileSaved": "Profile saved.",
+    "profileReverted": "Changes discarded.",
+    "fillComposeFields": "Please enter campaign name and subject.",
+    "copied": "Copied to clipboard."
+  }
+}
